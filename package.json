@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "raycast-nrm",
-  "title": "NpmRegistrationManager",
-  "description": "change the npm registration address",
+  "title": "NPMRegistryManager",
+  "description": "change the npm registry address",
   "icon": "nrm-icon.png",
   "author": "lihzsky",
   "categories": [
@@ -13,7 +13,7 @@
     {
       "name": "main",
       "title": "Nrm",
-      "description": "change the npm registration address",
+      "description": "change the npm registry address",
       "mode": "view"
     }
   ],
