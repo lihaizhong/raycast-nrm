@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.62.0",
+    "execa": "^8.0.1",
     "shell-env": "^4.0.1"
   },
   "devDependencies": {
