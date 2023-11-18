@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.62.0",
-    "nvexeca": "^10.0.0",
     "shell-env": "^4.0.1"
   },
   "devDependencies": {
