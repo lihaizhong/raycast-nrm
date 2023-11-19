@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { ActionPanel, Action, List, Icon } from "@raycast/api";
 import npmExec from "./npm";
 import { getRegistrySources } from "./octokit";
-import { IRegistrySourceItem, DEFAULT_REGISTRY_SOURCES } from "./constants";
+import { IRegistrySourceItem } from "./constants";
 
 export default function Command() {
-  const [registrySources, setRegistrySources] = useState<IRegistrySourceItem[]>(DEFAULT_REGISTRY_SOURCES);
+  const [registrySources, setRegistrySources] = useState<IRegistrySourceItem[]>([]);
   const [selectedValue, setSelectedValue] = useState<{ isLoading: boolean; data: string | null }>({
     isLoading: true,
     data: null,
