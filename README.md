@@ -6,4 +6,4 @@
 
 ## install
 
-Go to [raycast store](https://www.raycast.com/store) and search "*nrm*".
+Go to [raycast store](https://www.raycast.com/store) and search for "*nrm*".
