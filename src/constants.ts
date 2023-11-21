@@ -7,7 +7,7 @@ export interface IRegistrySourceItem {
 
 export const USER_HOME: string = process.env.HOME || process.env.USERPROFILE || `/Users/${process.env.USER}`;
 
-export const GIST_TOKEN: string = "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";
+export const GIST_TOKEN: string = "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";
 
 export const GIST_ID: string = "bafad768c908871a689c020cc405c81e";
 
