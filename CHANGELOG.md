@@ -1,5 +1,7 @@
-# raycast-nrm Changelog
+# NRM Changelog
 
-## [1.0.0] - 2023-11-18
-- 支持静态地址源获取
-- 支持npm地址源切换
+## Enhancement - November 20, 2023
+- Support obtaining NPM registry addresses from gist.
+
+## Initial Version - November 18, 2023
+- Support changing the npm registry address.

@@ -1,4 +1,4 @@
-# raycast-nrm(NPM Registry Manager)
+# raycast-nrm
 
 **raycast-nrm** can help you easy and fast switch between different npm registries, now include: **npm**, **yarn**, **tencent**, **cnpm**, **taobao**, **npmMirror**.
 
