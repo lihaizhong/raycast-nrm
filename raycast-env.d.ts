@@ -7,7 +7,14 @@
 
 /* eslint-disable @typescript-eslint/ban-types */
 
-type ExtensionPreferences = {}
+type ExtensionPreferences = {
+  /** Personal Access Token - GitHub personal access tokens. */
+  "access-token"?: string,
+  /** Gist ID - set gist id */
+  "gist-id"?: string,
+  /** File Name - set file name of gist */
+  "filename": string
+}
 
 /** Preferences accessible in all the extension's commands */
 declare type Preferences = ExtensionPreferences

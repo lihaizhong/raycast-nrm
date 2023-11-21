@@ -17,6 +17,30 @@
       "mode": "view"
     }
   ],
+  "preferences": [
+    {
+      "name": "access-token",
+      "type": "password",
+      "required": false,
+      "title": "Personal Access Token",
+      "description": "GitHub personal access tokens."
+    },
+    {
+      "name": "gist-id",
+      "type": "textfield",
+      "required": false,
+      "title": "Gist ID",
+      "description": "set gist id"
+    },
+    {
+      "name": "filename",
+      "type": "textfield",
+      "required": false,
+      "title": "File Name",
+      "description": "set file name of gist",
+      "default": "register.json"
+    }
+  ],
   "dependencies": {
     "@octokit/request": "^8.1.5",
     "@raycast/api": "^1.62.0",
