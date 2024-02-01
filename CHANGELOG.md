@@ -2,6 +2,7 @@
 
 ## Enhancement - February 1, 2024
 - Support copying the npm registry addresses to clipboard.
+- Optimizing the action style.
 
 ## Enhancement - November 21, 2023
 - Support customizing and modifying gist sources.
