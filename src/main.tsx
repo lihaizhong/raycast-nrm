@@ -38,6 +38,7 @@ export default function Command() {
           actions={
             <ActionPanel>
               <Action title={`Select ${item.title}`} onAction={() => handleAction(item.registry)} />
+              <Action.CopyToClipboard content={item.registry}></Action.CopyToClipboard>
             </ActionPanel>
           }
         />
