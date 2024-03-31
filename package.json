@@ -42,19 +42,19 @@
     }
   ],
   "dependencies": {
-    "@octokit/request": "^8.1.6",
-    "@raycast/api": "^1.66.2",
+    "@octokit/request": "^8.2.0",
+    "@raycast/api": "^1.70.3",
     "cross-fetch": "^4.0.0",
     "execa": "^8.0.1",
     "shell-env": "^4.0.1"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.8",
-    "@types/node": "20.11.14",
-    "@types/react": "18.2.48",
-    "eslint": "^8.56.0",
-    "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
+    "@types/node": "20.12.2",
+    "@types/react": "18.2.73",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
   },
   "scripts": {
     "build": "ray build -e dist",
