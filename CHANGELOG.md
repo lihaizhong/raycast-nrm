@@ -1,3 +1,10 @@
-# raycast-nrm Changelog
+# NRM Changelog
 
-## [1.0.0] - 2023-11-16
+## [Enhancement] - 2023-11-21
+- Support customizing and modifying gist sources.
+
+## [Enhancement] - 2023-11-20
+- Support obtaining NPM registry addresses from gist.
+
+## [Initial Version] - 2023-11-18 
+- Support changing the npm registry address.
