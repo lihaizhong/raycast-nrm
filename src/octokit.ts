@@ -4,6 +4,8 @@ import { preference } from "./preference";
 import { DEFAULT_REGISTRY_SOURCES, IRegistrySourceItem } from "./constants";
 
 export const getRegistrySources = async () => {
+  // console.log('preference', preference)
+
   if (!(preference.gistId && preference.personalAccessTokens)) {
     return DEFAULT_REGISTRY_SOURCES;
   }
@@ -23,8 +25,11 @@ export const getRegistrySources = async () => {
       },
     });
 
+    // console.log('响应内容', data)
+
     content = data?.files?.[preference.filename]?.content || "";
 
+    // console.log('获取到的内容', content)
     if (content) {
       return JSON.parse(content.trim()) as IRegistrySourceItem[];
     }

@@ -14,6 +14,7 @@ export default function Command() {
     const data = await npmExec.exec("config", "get", "registry");
     const sources = await getRegistrySources();
 
+    // console.log('解析完成的内容', sources)
     setSelectedValue({ isLoading: false, data });
     setRegistrySources(sources);
   };
